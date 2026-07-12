@@ -26,12 +26,16 @@ A minimal, native macOS menu bar app for real-time system monitoring — CPU, me
 
 ## Requirements
 
-- macOS (uses `MenuBarExtra`, requires macOS 13+)
-- Xcode / Swift toolchain to build
+- macOS 13 or later (uses `MenuBarExtra`)
 
-## Building
+## Installation
 
-Open the project in Xcode and run. The app lives entirely in the menu bar (`MenuBarExtra`) — no dock icon or main window.
+1. Download the latest `.app` from the [Releases](../../releases) page.
+2. Move it to `/Applications`.
+3. Open it. Since the app isn't notarized/signed by an Apple Developer ID, macOS Gatekeeper will likely block it on first launch — right-click the app and choose **Open**, or go to **System Settings → Privacy & Security** and allow it.
+4. Grant notification permission when prompted (used for high-usage alerts).
+
+The app lives entirely in the menu bar (`MenuBarExtra`) — no dock icon or main window.
 
 ## License
 
