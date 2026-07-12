@@ -36,7 +36,3 @@ A minimal, native macOS menu bar app for real-time system monitoring — CPU, me
 4. Grant notification permission when prompted (used for high-usage alerts).
 
 The app lives entirely in the menu bar (`MenuBarExtra`) — no dock icon or main window.
-
-## License
-
-Add your license of choice here.
